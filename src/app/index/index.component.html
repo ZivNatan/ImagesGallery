@@ -1,0 +1,8 @@
+
+<div class="gallery-wrapper">
+  <div class="img-wrapper" *ngFor="let item of items" [ngStyle]="{'width':item.thumb_width+ 'px' , 'hieght':item.thumb_height+ 'px' }" (click)="imgClicked(item)">
+    <img src="{{item.media}}">
+  </div>
+</div>
+
+<app-details *ngIf="showDetails" [img]="selectedImg" (toggle)="closeCliced($event)"></app-details>
