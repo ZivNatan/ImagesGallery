@@ -3,8 +3,6 @@ img{
     height: 100%;
 }
 
-
-
 .gallery-wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -12,6 +10,7 @@ img{
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 150px;
 }
+
 .img-wrapper{
     display: flex;
     flex-grow: 1;
@@ -20,6 +19,7 @@ img{
     max-width: 400px;
     max-height: 400px;
 }
+
 .img-wrapper:hover{
     z-index: 10;
     position: relative;
